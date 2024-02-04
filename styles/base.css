@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Pacifico&display=swap');
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns:auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto;
+    background-color: white;
+}
+header{
+    background:#501bb3;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+   
+
+}
+header img{
+    width: 100px;    
+    align-items:center;
+    padding-right: 10px;
+    border-radius: 50%;
+       
+}
+
+header h1{
+    font-family: 'Pacifico', cursive;
+    color:#fff;
+    font-size: 2.5em;  
+    align-items: center;
+    padding-left: 10px; 
+    
+}
+
+.picname{
+    grid-row: 1/2;
+
+}
+
+/*Hamburger menu*/
+nav {
+	max-width: 700px;
+	margin: 1rem auto;
+}
+
+  
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	padding: 3px 7px 6px;
+	position: absolute;
+	top:1rem;
+	right:1rem;
+}
+
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "x";
+}
+
+.navigation {
+    grid-column: 3/4;
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+.navigation a:hover {
+	background-color: #bbb;
+	color: #333;
+	font-weight: 700;
+}
+
+/* when the button is clicked - the open class is toggled (added/removed) */
+.open a {
+	display: block;
+}
+
+.navigation {
+    display: none;
+  }
+  
+  .navigation.show {
+    display: block;
+  }
+  
+
+
+
+main{
+    grid-column: 2/3;
+    font-family: 'Mulish', sans-serif;
+    width:80%;
+    margin: auto;   
+    
+}
+
+ul{
+    list-style-type: none;
+}
+h3{
+    background: #501bb3;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    padding-top: 0;
+    margin-top: 0;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #91C5CC;
+    color:#501bb3;
+}
+
+section p{
+    text-align: center;
+}
+.card{
+    border: 1px solid #501bb3;
+    margin: 20px;
+}
+
+footer{
+    grid-column: 2/3;
+    text-align: center;
+    background-color: #91C5CC;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+
+}
+#lastModified{
+color:#5b1036;
+font-weight: bold;
+}
+
+#name{
+    font-family:'Pacifico', cursive;
+    font-size: 1.5em;
+}
+
+iframe{
+    
+}
+.container {
+    grid-column: 2/3;
+    margin: 0 auto;
+    padding-top: 75%; /* 4:3 Aspect Ratio */
+  }
+  
