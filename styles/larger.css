@@ -1,10 +1,17 @@
 @media (min-width:700px){
-    .navigation {
-        display:flex;
-    }
-    .navigation a{
-        flex: 1 1 100%;
-    }
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+    
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -38,7 +45,7 @@
         font-size: 1.2em;
     }
     a:hover{
-        background-color: #501bb3;
+        background-color: #B31B68;
         color:#fff;
     }
     .container {
