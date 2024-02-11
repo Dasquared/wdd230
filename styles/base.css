@@ -34,7 +34,7 @@ header h1{
 }
 
 .picname{
-    grid-row: 1/2;
+    grid-row: 2;
 
 }
 
@@ -46,6 +46,7 @@ nav {
 
   
 
+/* small view navigation */
 /* small view navigation */
 #menu {
 	font-size: 1.5rem;
@@ -91,14 +92,6 @@ nav {
 	display: block;
 }
 
-.navigation {
-    display: none;
-  }
-  
-  .navigation.show {
-    display: block;
-  }
-  
 
 
 
@@ -114,7 +107,7 @@ ul{
     list-style-type: none;
 }
 h3{
-    background: #501bb3;
+    background: #B31B68;
     color: white;
     text-align: center;
     padding: 5px;
@@ -125,14 +118,14 @@ h2{
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid #91C5CC;
-    color:#501bb3;
+    color:#B31B68;
 }
 
 section p{
     text-align: center;
 }
 .card{
-    border: 1px solid #501bb3;
+    border: 1px solid #B31B68;
     margin: 20px;
 }
 
@@ -162,4 +155,3 @@ iframe{
     margin: 0 auto;
     padding-top: 75%; /* 4:3 Aspect Ratio */
   }
-  
