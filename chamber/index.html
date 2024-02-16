@@ -31,7 +31,11 @@
             
         </div>
         <div class="hero">
-            <picture><img src="images/catedraldetacnacompressed.jpg" alt="Catedral de Tacna"></picture>
+            <picture>
+                <source media="(max-width: 825px)" srcset="images/wdd230-org-small.webp">
+                <source media="(max-width: 1199px)" srcset="images/wdd230-org-medium.webp">
+                <img src="images/wdd230-org-large.webp" alt="three persons working in an office" width="1607" height="524">
+            </picture>
             <div class="herolabel">
               <h1>Tacna Chamber of Commerce</h1>
               <button>Become a Member</button>
@@ -49,12 +53,15 @@
         </section>
         <section class="weather">
             <h2>Weather</h2>
-            <p>Sunny, clear, hot</p>
+            <p>Temperature</p>
+            <p>Wind Speed</p>
+            <p>Wind Chill</p>
 
         </section>
         <section class="members">
             <h2>Members</h2>
 
+            
         </section>
         <button class="cta">Join Us</button>
 
