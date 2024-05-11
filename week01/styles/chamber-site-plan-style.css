@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Open+Sans&family=Seaweed+Script&display=swap');
+
+body{
+    grid-template-columns: repeat(12, 1fr);
+    font-family: 'Open Sans', sans-serif;
+}
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url(catedraldetacnacompressed.jpg);
+    background-color: #34568f;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    
+}
+.hero img{
+    z-index: 0;
+    width: 100%;
+    height: fit-content;
+
+}
+.hero h1{
+    z-index: 1;
+    padding-top: 2rem;
+    font-size: 3em;
+    font-family: 'Domine', serif;
+    position: absolute;
+    top: 35px;
+    left: 60px;
+}
+
+.hero h2{
+    z-index: 1;
+    font-size: 1.5em;
+    font-family: 'Seaweed Script', cursive;
+    position: relative;
+    top: px;
+
+}
+
+h2{
+    font-size: 1.2em;
+    font-family: 'Domine', serif;
+    color: #fff;
+    background-color:#34568f;
+    padding: 0.5rem;
+}
+.box{
+    float: left;
+    height: 30px;
+    width: 50px;
+    border: 1px solid #000;
+   margin-right: 5px;
+    
+}
+.color1{
+    background-color: #34568f;
+}
+.color2{
+    background-color: #fff;
+}
+.domine{
+    font-family: 'Domine', serif;
+    font-size: 1.5em;
+}
+.seaweed{
+    font-family: 'Seaweed Script', cursive;
+    font-size: 2em;
+}
+.wireframe img{
+    width: 50%;
+    height:auto;
+}
+
+footer{
+    background-color: #34568f;
+    color: #fff;
+    font-family: 'Domine', serif;
+    text-align: center;
+    line-height: 1em;
+    width: 100%;
+    padding: 20px;
+    
+}
+#name{
+    font-family: 'Seaweed Script', cursive;
+    font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 50vh;
+           
+    }
+    .hero h2{
+        color: #000;
+        background-color: #fff;
+    }
+
+}
