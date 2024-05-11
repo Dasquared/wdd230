@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tacna Chamber</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="css/base.css" type="text/css" />
+  <link rel="stylesheet" href="css/medium.css" type="text/css" />
+  <link rel="stylesheet" href="css/large.css" type="text/css" />
+</head>
+
+<body>
+  <div id="banner">
+    Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+  </div>
+  <header>
+    <a href="index.html"><img id="head-logo" src="images/arcoLogo.jpg" alt="Chamber Logo" /></a>
+    <div id="head-title">
+      <h1>Tacna</h1>
+      <p>Chamber of Commerce</p>
+    </div>
+    <div id="social">
+      <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook logo" /></a>
+      <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="linkedin logo" /></a>
+    </div>
+
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+    <nav>
+      <ul id="primaryNav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h3 id="head-date"></h3>
+  </header>
+  <main id="join-page">
+    <h2>Become a Member</h2>
+    <div id="join-sections">
+    <!-- APPLICATION FORM -->
+      <section id="cont-form">
+          <h3 class="subheading">Chamber Application Form</h3>
+          <form id="join-form" action="thankyou.html" method="get">
+            <fieldset>
+              <legend>Personal Information:</legend>
+              <label class="top" for="firstName">
+                First name: 
+                <input name="firstName" type="text" required>
+              </label>
+              <label class="top" for="lastName">
+                Last name: 
+                <input name="lastName" type="text" required>
+              </label>
+              <label class="top" for="email">
+                Email Address: 
+                <input name="email" type="email" placeholder="myemail@email.net" required>
+              </label>
+              <label class="top" for="phoneNumb">
+                Cell phone number: 
+                <input name="phoneNumb" type="tel" required>
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Business Information</legend>
+              <label class="top" for="businessName">
+                Business name:
+                <input name="businessName" type="text" required>
+              </label>
+              <label class="top" for="businessPosi">
+                Business position: 
+                <input id="businessPosi" name="businessPosi" type="text" pattern="[A-Za-z/s-]+" minlength="7">
+              </label>
+              <label class="top" for="businessDesc">
+                Business description: 
+                <textarea name="businessDesc" id="" cols="30" rows="6"></textarea>
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Membership level:</legend>
+              <label class="sbs" for="membership">
+                <input type="radio" name="membership" id="NP">
+                NP Merbership | free
+                <ul class="listBenefits">
+                  <li>Be part of the chamber of commerce.</li>
+                  <li>Receive emails with event information.</li>
+                  <li>Free training access - once every month. </li>
+                </ul>
+              </label>
+
+              <label class="sbs" for="membership">
+                <input type="radio" name="membership" id="BZ">
+                Bronze Membership | S/.100.00
+                <ul class="listBenefits">
+                  <li>Be part of the chamber of commerce.</li>
+                  <li>Receive emails with event information.</li>
+                  <li>Access to weekly trainnings.</li>
+                  <li>10% off to monthly events.</li>
+                  <li>One Online Advisory per month.</li>
+                </ul>
+              </label>
+              <label class="sbs" for="memberchip">
+                <input type="radio" name="membership" id="SL">
+                Silver Membership | S/.220.00
+                <ul class="listBenefits">
+                  <li>Be part of the chamber of commerce.</li>
+                  <li>Receive emails with event information.</li>
+                  <li>Access to weekly trainnings.</li>
+                  <li>25% off to monthly events.</li>
+                  <li>Online Advisory when needed.</li>
+                  <li>One visit per month | personal advisory.</li>
+                </ul>
+              </label>
+              <label class="sbs" for="membership">
+                <input type="radio" name="membership" id="GD">
+                Gold Merbership | S/350.00
+                <ul class="listBenefits">
+                  <li>Be part of the chamber of commerce.</li>
+                  <li>Receive emails with event information.</li>
+                  <li>Access to weekly trainnings.</li>
+                  <li>45% off to monthly events.</li>
+                  <li>Online or Personal  Advisory |when needed.</li>
+                  <li>Advertise on our website home page.</li>
+                  <li>Advisor Agent assigned to your business.</li>
+                </ul>
+              </label>
+              <label class="top" for="">
+                <input name="dateTime" type="hidden">
+              </label>
+            </fieldset>
+            <label for="">
+              <input class="submitBtn" type="submit" value="Join The Chamber">
+            </label>
+          </form>
+      </section>
+
+      <!-- MEMBERSHIP INFORMATION -->
+      <side id="member-benefits">
+        <div>
+          <h3 class="subheading">Membership Levels Plan</h3>
+         
+          <section id="secNP">
+            <h3>Non-Profit | free</h3>
+            <ul>
+              <li>Be part of the chamber of commerce.</li>
+              <li>Receive emails with event information.</li>
+              <li>Free training access - once every month. </li>
+            </ul>
+          </section>
+          <section id="secBR">
+            <h3>Bronze | S/. 100.00 *</h3>
+            <ul>
+              <li>Be part of the chamber of commerce.</li>
+              <li>Receive emails with event information.</li>
+              <li>Access to weekly trainnings.</li>
+              <li>10% off to monthly events.</li>
+              <li>One Online Advisory per month.</li>
+            </ul>
+          </section>
+          <section id="secSI">
+            <h3>Silver | S/. 220.00 *</h3>
+            <ul>
+              <li>Be part of the chamber of commerce.</li>
+              <li>Receive emails with event information.</li>
+              <li>Access to weekly trainnings.</li>
+              <li>25% off to monthly events.</li>
+              <li>Online Advisory when needed.</li>
+              <li>One visit per month | personal advisory.</li>
+            </ul>
+          </section>
+          <section id="secGO">
+            <h3>Gold | S/. 350.00 *</h3>
+            <ul>
+              <li>Be part of the chamber of commerce.</li>
+              <li>Receive emails with event information.</li>
+              <li>Access to weekly trainnings.</li>
+              <li>45% off to monthly events.</li>
+              <li>Online or Personal  Advisory | when needed.</li>
+              <li>Advertise on our website home page.</li>
+              <li>Advisor Agent assigned to your business.</li>
+            </ul>
+            
+          </section>
+          <p>* Monthly Pricing</p>
+        </div>
+      </side>
+    </div>
+  </main>
+    
+  <footer>
+    <div id="bottom-info">
+      <div>
+        <img id="foot-logo" src="images/arcoLogo.jpg" alt="Tacna Chamber Logo" />
+      </div>
+      <div>
+        <h2>Tacna Chamber of Commerce</h2>
+        <p>253 Billinghurst , Tacna 23003</p>
+      </div>
+      <div>
+        <p id="email">info@tacnachamber.org</p>
+        <p id="phone-n">+51 052 502077</p>
+        <p id="location">Location</p>
+      </div>
+    </div>
+    <div id="ended">
+      <div id="bottom-data">
+        <p>&#169;<span id="current-year"></span> Tacna Chamber</p>
+        <p>Juan Condori</p>
+        <p>WDD-230 Project</p>
+      </div>
+      <p id="mod-time">Last Updated: <span id="last-mod"></span></p>
+    </div>
+  </footer>
+  <script src="js/join.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+{
+    "weeks": [
+        {
+            "week":"01",
+            "links":[
+                {
+                    "url":"week01/holygrail.html",
+                    "title":"Holy Layout"
+                },
+                {
+                    "url":"https://codepen.io/ajnpzrwv-the-selector/pen/ExMbKjY",
+                    "title": "JS Pen"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title":"Media Queries"
+
+                }
+            ]
+
+        },
+        {
+            "week": "02",
+             "links": [
+                {
+                    "url":"week02/design.html",
+                    "title":"Design Principles 1"
+                },
+                {
+                    "url":"week02/design-principles.html",
+                    "title":"Design Principles Document"
+                },
+                {
+                    "url":"https://codepen.io/ajnpzrwv-the-selector/pen/ZEPaWbP",
+                    "title":"Responsive 'Hamburger' Menu"
+                },
+                {
+                    "url":"week02/bom.html",
+                    "title":"Book of Mormon Favorite Chapter list"
+                }
+             ]
+
+        },
+        {
+            "week":"03",
+            "links": [
+                {
+                    "url":"week03/images/landscape.webp",
+                    "title":"WebP"
+                },
+                {
+                    "url":"week03/lazyload.html",
+                    "title":"Lazy Loading"
+                },
+                {
+                    "url":"week03/responsive-images.html",
+                    "title":"Responsive Images"
+                },
+                {
+                    "url":"week03/bom2.html",
+                    "title":"Web Storage API - localStorage"
+                }
+            ]
+        
+        },
+        {
+            "week":"04",
+            "links":[
+                {
+                    "url": "https://codepen.io/ajnpzrwv-the-selector/pen/RwdyKZK",
+                    "title": "CSS Pseudo-classes"
+
+                },
+                {
+                    "url":"images/css-combinators.jpg",
+                    "title":"Combinators"
+                },
+                {
+                    "url":"week04/tablebuild.html",
+                    "title":"HTML Tables"                    
+                },
+                {
+                    "url":"week04/Form-start/index.html",
+                    "title":"Forms"
+                }              
+            ]
+        },
+        {
+            "week":"05",
+            "links":[
+                {
+                    "url":"https://codepen.io/ajnpzrwv-the-selector/pen/GReOZpE",
+                    "title":"Pseudo-Elments"
+                },
+                {
+                    "url":"week05/new-ward-members.json",
+                    "title":"JSON file"
+                },
+                {
+                    "url":"week05/prophets.html",
+                    "title":"The Fetch API - Prophets"
+                },
+                {
+                    "url":"week05/weather.html",
+                    "title":"OpenWeatherMap API"
+                }
+            ]
+        }
+    ]
+        
+}
+
